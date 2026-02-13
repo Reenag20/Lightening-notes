@@ -6,7 +6,7 @@ export function Logo({ className, ...props }: React.HTMLAttributes<HTMLDivElemen
     <div className={cn("flex items-center gap-2", className)} {...props}>
       <Zap className="h-6 w-6 text-accent" />
       <span className="font-headline text-xl font-bold tracking-tight">
-        Zenith
+        Zenith Notes
       </span>
     </div>
   );
